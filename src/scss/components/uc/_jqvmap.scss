@@ -1,0 +1,13 @@
+.svg-map {
+  height: 400px !important;
+  stroke: #fff!important;
+}
+
+.svg-map__location:focus,
+.svg-map__location:hover {
+  fill: lighten($primary, 10%)!important;
+}
+
+.svg-map__location {
+  fill: $primary!important;
+}

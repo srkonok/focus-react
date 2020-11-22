@@ -1,0 +1,15 @@
+#external-events {
+  position: absolute;
+  z-index: 2;
+
+  padding: 0 10px;
+  border: 1px solid $border-color;
+  background: #eee;
+  overflow-y: scroll;
+  color: $headings-color;
+}
+
+#external-events .fc-event {
+  margin: 1em 0;
+  cursor: move;
+}
